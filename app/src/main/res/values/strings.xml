@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Modules</string>
+    <string name="rp_modules">RP Modules</string>
+    <string name="c203">C203</string>
+    <string name="c235">C235</string>
+    <string name="c206">C206</string>
+    <string name="c346">C346</string>
+    <string name="c218">C218</string>
+    <string name="back">Back</string>
+</resources>

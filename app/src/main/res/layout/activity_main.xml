@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:fontFamily="@font/amaranth"
+        android:gravity="center"
+        android:text="@string/rp_modules"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bt203"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="0"
+            android:fontFamily="@font/amaranth"
+            android:text="@string/c203"
+            android:textSize="24sp"
+            app:backgroundTint="#4CAF50"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/bt346"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="0"
+            android:fontFamily="@font/amaranth"
+            android:text="@string/c346"
+            android:textSize="24sp"
+            app:backgroundTint="#000000"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/bt235"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="0"
+            android:fontFamily="@font/amaranth"
+            android:text="@string/c235"
+            android:textSize="24sp"
+            app:backgroundTint="#4CAF50"
+            app:cornerRadius="20dp"
+            app:iconTint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/bt206"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="0"
+            android:fontFamily="@font/amaranth"
+            android:text="@string/c206"
+            android:textSize="24sp"
+            app:backgroundTint="#000000"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/bt218"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="0"
+            android:fontFamily="@font/amaranth"
+            android:text="@string/c218"
+            android:textSize="24sp"
+            app:backgroundTint="#4CAF50"
+            app:cornerRadius="20dp" />
+    </LinearLayout>
+
+</LinearLayout>
